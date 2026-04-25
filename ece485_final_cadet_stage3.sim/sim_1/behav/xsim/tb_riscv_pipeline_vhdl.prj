@@ -6,7 +6,7 @@ vhdl xil_defaultlib  \
 "../../../../data_mem.vhdl" \
 "../../../../hazard_detection_unit.vhdl" \
 "../../../../immediate_generator.vhdl" \
-"../../../../instr_mem.vhdl" \
+"../../../../../ece485_final_cadet_stage1/instr_mem.vhdl" \
 "../../../../pc.vhdl" \
 "../../../../pipeline_registers.vhdl" \
 "../../../../reg_file.vhdl" \

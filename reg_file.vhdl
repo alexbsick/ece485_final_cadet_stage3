@@ -23,7 +23,8 @@ architecture Behavioral of reg_file is
 begin
     process(clk)
     begin
-        if rising_edge(clk) then
+        --if rising_edge(clk) then
+        if falling_edge(clk) then  -- 2nd half of clock cycle
             if reg_write = '1' then
                 registers(to_integer(unsigned(rd))) <= data_in;
             end if;
@@ -32,10 +33,11 @@ begin
 
     data_out1 <= registers(to_integer(unsigned(rs1)));
     data_out2 <= registers(to_integer(unsigned(rs2)));
-    
-    -- hack to just display the 4 registers we use on the simulation plot, vs all 32 registers
+	
+	    -- hack to just display the 4 registers we use on the simulation plot, vs all 32 registers
     display_x5 <= registers(5);
     display_x6 <= registers(6);
     display_x7 <= registers(7);
     display_x10 <= registers(10);
+	
 end Behavioral;

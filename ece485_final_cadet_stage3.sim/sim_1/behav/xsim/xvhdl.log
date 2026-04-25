@@ -1,24 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/alu.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity alu
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/alu_control.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity alu_control
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/control_unit.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity control_unit
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/data_mem.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity data_mem
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/hazard_detection_unit.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity hazard_detection_unit
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/immediate_generator.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity immediate_generator
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/instr_mem.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity instr_mem
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/pc.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity pc_live
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/pipeline_registers.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity pipeline_registers
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/reg_file.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity reg_file
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/riscv_pipeline.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity riscv_pipeline
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage3/tb_riscv_pipeline.vhdl" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity tb_riscv_pipeline
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Vivado_Projects/ece485_final_cadet_stage3/hazard_detection_unit.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hazard_detection_unit'
