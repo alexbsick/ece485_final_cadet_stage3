@@ -247,7 +247,6 @@ architecture Behavioral of riscv_pipeline is
             reset :          in STD_LOGIC;
             -- Here are the signals I need
             instr          : in STD_LOGIC_VECTOR(31 downto 0);
-            pc             : in STD_LOGIC_VECTOR(31 downto 0);
             if_id_instr    : in STD_LOGIC_VECTOR(31 downto 0);
             branch         : in STD_LOGIC;
             jump           : in STD_LOGIC;
@@ -418,7 +417,6 @@ begin
         port map (
             reset => reset,
             instr => instr,
-            pc    => pc,
             if_id_instr => if_id_instr,
             branch => branch,
             jump => jump,
